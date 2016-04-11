@@ -8,8 +8,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档(Documents)", "文档
 		ReadME.txt = ReadME.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "演示(Demos)", "演示(Demos)", "{99CCA3E3-26EB-49CB-9CF7-CCC53C3F9179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "项目(Projects)", "项目(Projects)", "{04BB2AD7-7568-4908-BAF8-8ACF317C5640}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallAppX", "Demos\CallAppX\CallAppX.vcxproj", "{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IECacheCleaner", "Demos\IECacheCleaner\IECacheCleaner.vcxproj", "{F84956DC-5D52-4492-B10F-0766EF96A056}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Debug|x64.ActiveCfg = Debug|x64
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Debug|x64.Build.0 = Debug|x64
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Debug|x86.Build.0 = Debug|Win32
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Release|x64.ActiveCfg = Release|x64
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Release|x64.Build.0 = Release|x64
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Release|x86.ActiveCfg = Release|Win32
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23}.Release|x86.Build.0 = Release|Win32
+		{F84956DC-5D52-4492-B10F-0766EF96A056}.Debug|x64.ActiveCfg = Debug|Win32
+		{F84956DC-5D52-4492-B10F-0766EF96A056}.Debug|x86.ActiveCfg = Debug|Win32
+		{F84956DC-5D52-4492-B10F-0766EF96A056}.Debug|x86.Build.0 = Debug|Win32
+		{F84956DC-5D52-4492-B10F-0766EF96A056}.Release|x64.ActiveCfg = Release|Win32
+		{F84956DC-5D52-4492-B10F-0766EF96A056}.Release|x86.ActiveCfg = Release|Win32
+		{F84956DC-5D52-4492-B10F-0766EF96A056}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE0A9B32-89BA-4132-B988-E9CAEBE7EE23} = {99CCA3E3-26EB-49CB-9CF7-CCC53C3F9179}
+		{F84956DC-5D52-4492-B10F-0766EF96A056} = {99CCA3E3-26EB-49CB-9CF7-CCC53C3F9179}
 	EndGlobalSection
 EndGlobal
